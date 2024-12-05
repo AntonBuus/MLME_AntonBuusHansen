@@ -90,7 +90,19 @@ MonoBehaviour:
   m_ScriptInternal: {fileID: 0}
   ScriptHashCode: 27058
   m_PortsPerFieldInfo:
-    m_keys: []
+    m_keys:
+    - _fieldName: _userPerformance
+      _node: {fileID: -3837202191324886622}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: m_Out
+        node: {fileID: -7413127658515117624}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
   CreatedDuringPlaymode: 0
 --- !u!114 &-91421563260462105
 MonoBehaviour:
@@ -332,7 +344,7 @@ MonoBehaviour:
   PredictedRapidlibOutput:
   - 0
   DelayedPredictedOutput:
-  - 0
+  - 1
   m_NumExamplesTrainedOn: 0
   m_ExpectedInputList: 03000000
   m_ExpectedOutputList: 01000000
