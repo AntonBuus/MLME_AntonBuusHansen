@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: f2c98da9-a818-49a3-96a3-4989df4303a6
   graph: {fileID: 11400000}
-  position: {x: 1464, y: 8}
+  position: {x: 1400, y: 8}
   ports:
     keys:
     - m_In
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: deb60e24-33b9-49f4-9125-89e73f97cd67
   graph: {fileID: 11400000}
-  position: {x: 1624, y: 248}
+  position: {x: 1752, y: 216}
   ports:
     keys:
     - _userPerformance
@@ -88,7 +88,7 @@ MonoBehaviour:
   DevMode: 0
   IsInitialized: 1
   m_ScriptInternal: {fileID: 0}
-  ScriptHashCode: 27058
+  ScriptHashCode: 27096
   m_PortsPerFieldInfo:
     m_keys:
     - _fieldName: _userPerformance
@@ -273,8 +273,8 @@ MonoBehaviour:
   IsInitialized: 1
   GameObjectDataOut: {fileID: 0}
   GameObjMissing: 0
-  state: 1
-  GOHashCode: 26858
+  state: 0
+  GOHashCode: 26862
   CreatedDuringPlaymode: 0
 --- !u!114 &4870383934386899324
 MonoBehaviour:
@@ -290,7 +290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2d12b18e-9aab-4ee4-99cd-135453ee70a5
   graph: {fileID: 11400000}
-  position: {x: 1144, y: 8}
+  position: {x: 1080, y: 8}
   ports:
     keys:
     - IMLTrainingExamplesNodes
@@ -345,7 +345,7 @@ MonoBehaviour:
   - 0
   DelayedPredictedOutput:
   - 1
-  m_NumExamplesTrainedOn: 0
+  m_NumExamplesTrainedOn: 1019
   m_ExpectedInputList: 03000000
   m_ExpectedOutputList: 01000000
   m_LearningType: 0
