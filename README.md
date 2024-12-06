@@ -6,4 +6,4 @@ The scene is better played with a VR headset but can be tested by simply draggin
 To find the relevant scene: In the project go to Assets\_Anton\InteractML and open the scene named "MLME_AntonBuusHansen"
 
 
-
+If you get a dll error from RapidLib, the error is resolved here: https://github.com/Interactml/iml-unity/wiki/Fixing-Error-DllNotFoundException:-RapilibPlugin 
